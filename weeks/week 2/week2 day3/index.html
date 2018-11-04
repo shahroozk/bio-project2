@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <br>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-3">
+                    <h3>About me!</h3>
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhMTEhIWEhUWFxUWFxUXFRcXFhYWFRcYGBUVFhcaICggGBolGxUVITEhJSkrLi4uFx8zODMsNzQtLisBCgoKDg0OGRAQGislHiU3Ny0tKysxNzctNy0tKzc1NjcvKzcuKzcrMCs4LSstKzc1NTc3LSs3Ny0uLy03MC0tLf/AABEIAJMBVwMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHCAH/xABFEAACAgECAwUGAwQHBQkBAAABAgADEQQSBSExBhNBUWEHIjJxgZFCobEUQ1LBI2JygrLR8BUWkqLDM0RTc4PC0+HxF//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAhEQEBAAIABgMBAAAAAAAAAAAAAQIRAxIhUaHhMZHxQf/aAAwDAQACEQMRAD8A7jERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBESO4px7S6bA1GppoJ6CyxEJ+QJyYEjEjNF2i0ly76tVRYoOCVtQgHyPPlK7OOaZQSdRUAOZPeLgDzJzAkImka72rcMrJCXNqCOoprZgP75wn/NIO/wBtNH7vSWn1e2pf8BeB1OJyP/8AsdhPu6Kof2tU36CmXqfanqW/7tp1+eosP/SEG3VonONL271j9KtHj/z7R/0zJfTdotc3TTaV/RdWw/xVQNwiaJqfaSumcJr9JdpM8g+DbWfk6qA393Mn+z/a7Ra7I02pSxhnKZK2DHU7Gw2PXGIE5ERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEEz4zAczymldreKV3IanQlcggh2Rsj1X5nlA2y7iVKfFag9NwJ+w5zTe0HtT0enYV1nvrCcbQeh8MgZYeHUDr1nEvaPpHrdWra/uHGDvuNi78nIxhQoxjA59DzkD2e4Wt1iDe56llqRi/I8ueNqj+tmB23iHaPW35zb3C5xtrIX05kHd/zTlPEdOzu+o95hYzbGbmSinapz64z9ZsN9daKUY6itCMFbO92keR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" width="150px" height="150px" alt="">
+             </div>
+             <div class="col-md-6">
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit dolorem ea voluptate cupiditate quis modi maiores iure dignissimos ut omnis consectetur vel consequatur eum, quidem officiis earum asperiores expedita. Laudantium.
+             </div>
+            <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+            </div>
+         </div>
+      </div>
+      
+</body>
+</html>
